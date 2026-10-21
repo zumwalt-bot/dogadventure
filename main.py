@@ -200,6 +200,7 @@ def rest(event):
     #         Hint: dog_name + " took a nap next to " + player_name + "."
     energy = keep_in_range(energy+20)
     hunger = keep_in_range(hunger+20)
+    happiness = keep_in_range(happiness-20)
     
 
     say("...", "💤")
